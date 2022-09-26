@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+ul,
+ol {
+  list-style: none;
+}
+.main__header {
+  background-color: rgb(65, 113, 216);
+  color: white;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.main__header__nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.logo__nav{
+  display: flex;
+  width: 120px;
+  height: 120px;
+  padding-left: 35px;
+}
+
+.main__header__nav li {
+  padding-left: 20px;
+}
+
+.main__header ul li {
+  padding-left: 25px;
+  padding-right: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-family: star jedi;
+  font-size: large;
+}
+.main__header__nav a {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: space-between;
+}
+.main__header__nav a.active {
+  color: #ffffff;
+}
+.main__header__nav-button {
+  border: 1px solid white;
+  border-radius: 40px;
+  padding: 10px 15px;
+  margin-left: 20px;
+}
+.main__principal {
+  background-color: rgb(65, 113, 216);
+  color: white;
+  display: grid;
+  justify-content: space-around;
+  align-items: start;
+  height: 100vh;
+}
+.titulos {
+  font-style: normal;
+  font-family: star jedi;
+  font-size: large;
+}
+
+.invitados {
+  width: 450px;
+  height: 300px;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.h1 {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.main__footer {
+  display: flex;
+  background-color: rgb(65, 113, 216);
+}
+
+.logo__footer{
+  width: 120px;
+  height: 120px;
+  padding-left: 35px;
+}
