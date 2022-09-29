@@ -35,11 +35,13 @@ ol {
 .titulos {
   font-style: normal;
   font-size: xx-large;
+  font-family: star jedi;
 
 }
 .titulos__main{
   font-style: normal;
   display: grid;
+  font-family: star jedi;
 }
 
 .video__intro{
