@@ -1,3 +1,7 @@
+@font-face {
+  font-family: star jedi;
+  src: url(fuentes/Starjedi.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -29,13 +33,11 @@ ol {
 }
 .titulos {
   font-style: normal;
-  font-family: star jedi;
   font-size: xx-large;
 
 }
 .titulos__main{
   font-style: normal;
-  font-family: star jedi;
   display: grid;
 }
 
