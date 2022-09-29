@@ -13,6 +13,7 @@ ol {
 }
 .background-nav{
   background-color:rgb(65, 113, 216);
+  
 }
 .nav-item{
   font-family: star jedi;
@@ -35,19 +36,18 @@ ol {
 .titulos__main{
   font-style: normal;
   font-family: star jedi;
-
   display: grid;
-  justify-content: space-around;
+}
+
+.video__intro{
+width: 1080px;
+height: 720px;
 }
 
 .card-title{
  color: black;
 }
 
-.invitados {
-  width: 450px;
-  height: 300px;
-}
 a:link {
   color: black;
   text-decoration: none;
@@ -56,22 +56,13 @@ a:visited {
   color: black;
   text-decoration: none;
 }
-a:hover {
-  color: #ffffff;
-  text-decoration: none;
-}
-.h1 {
-  font-style: normal;
-  font-weight: 400;
-}
-
 .main__footer {
-  display: flex;
   background-color: rgb(65, 113, 216);
 }
-
-.logo__footer{
-  width: 120px;
-  height: 120px;
-  padding-left: 35px;
+.footer__redes{
+  display: grid;
+  justify-content: end;
+}
+.navbar-brand__footer{
+  display: grid;
 }
