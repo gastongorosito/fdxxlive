@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'star jedi';
+  font-family: 'starjedi';
   src: url(fuentes/Starjedi.ttf);
 }
 * {
@@ -20,7 +20,7 @@ ol {
   
 }
 .nav-item{
-  font-family: 'star jedi';
+  font-family: 'starjedi';
   font-size: xx-large;
 }
 .main__principal {
