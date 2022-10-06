@@ -20,6 +20,7 @@ ol {
   background-color:rgb(65, 113, 216);
   
 }
+
 .nav-item{
   font-family: 'Starjedi';
   font-size: xx-large;
@@ -42,6 +43,11 @@ ol {
   font-style: normal;
   display: grid;
   font-family: star jedi;
+}
+
+collapse navbar-collapse{
+  display: flex;
+  justify-content: end;
 }
 
 .video__intro{
