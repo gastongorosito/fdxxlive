@@ -3,10 +3,7 @@
   padding: 0;
 }
 
-@font-face {
-  font-family: 'Starjedi';
-  src: url(/fuentes/Starjedi.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap');
 
 a {
   text-decoration: none;
@@ -20,7 +17,6 @@ ol {
   background-color:rgb(65, 113, 216);
   
 }
-
 .main__principal {
   background-color: rgb(65, 113, 216);
   color: white;
@@ -29,21 +25,19 @@ ol {
   align-items: start;
   height: 100vh;
 }
-.titulos {
-  font-style: normal;
+.nav-link{  
+  font-family: 'Gemunu Libre', sans-serif;
   font-size: xx-large;
-  font-family: star jedi;
-
-}
-.titulos__main{
-  font-style: normal;
-  display: grid;
-  font-family: star jedi;
-}
-
-collapse navbar-collapse{
+  font-style: italic;
   display: flex;
   justify-content: end;
+
+}
+.titulos {
+  font-family: 'Gemunu Libre', sans-serif;
+}
+.titulos__main{
+  font-family: 'Gemunu Libre', sans-serif;
 }
 
 .video__intro{
@@ -65,11 +59,4 @@ a:visited {
 }
 .main__footer {
   background-color: rgb(65, 113, 216);
-}
-.footer__redes{
-  display: grid;
-  justify-content: end;
-}
-.navbar-brand__footer{
-  display: grid;
 }
