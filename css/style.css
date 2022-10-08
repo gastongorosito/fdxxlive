@@ -23,8 +23,15 @@ ol {
   display: grid;
   justify-content: space-around;
   align-items: start;
-  height: 100vh;
+  height: 115vh;
 }
+
+.imagen-index{
+  box-shadow: 6px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 11px 0px rgba(0, 0, 0, 0.75);
+}
+
 .nav-link{  
   font-family: 'Gemunu Libre', sans-serif;
   font-size: xx-large;
