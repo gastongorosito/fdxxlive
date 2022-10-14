@@ -1,0 +1,30 @@
+header{
+    nav{
+        font-style: normal;
+        font-family: 'Sigmar One', cursive;
+        font-weight:500;
+        font-size: 150%;
+        margin-bottom: 10px;
+    }
+        .contenedor-secciones{
+            width: 80%;
+
+            @media screen and (min-width:992px) {
+                .header-secciones {
+                    display: flex;
+                    justify-content: end;
+                }
+            }
+
+            a:link {
+                color: white;
+                text-decoration: none;
+            }
+        
+            a:visited {
+                color: white;
+                text-decoration: none;
+            }
+            
+        }
+    }

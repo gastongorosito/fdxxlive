@@ -1,0 +1,30 @@
+.main-videos{
+    section{
+        span{
+            h1{
+                text-align: start;
+                font-style: normal;
+                font-family: 'Sigmar One', cursive;
+                color: white;
+                margin-top: 15px;
+            }
+        }
+    }
+}
+
+.video-responsive {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 60%;
+    position: relative;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

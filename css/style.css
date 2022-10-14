@@ -1,3 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+header nav {
+  font-style: normal;
+  font-family: "Sigmar One", cursive;
+  font-weight: 500;
+  font-size: 150%;
+  margin-bottom: 10px;
+}
+header .contenedor-secciones {
+  width: 80%;
+}
+@media screen and (min-width: 992px) {
+  header .contenedor-secciones .header-secciones {
+    display: flex;
+    justify-content: end;
+  }
+}
+header .contenedor-secciones a:link {
+  color: white;
+  text-decoration: none;
+}
+header .contenedor-secciones a:visited {
+  color: white;
+  text-decoration: none;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(65, 113, 216);
+}
+
+.main-principal section div h1 {
+  font-style: normal;
+  font-family: "Sigmar One", cursive;
+  font-weight: 400;
+  font-size: 300%;
+  margin-bottom: 10px;
+  color: white;
+}
+.main-principal section div h2 {
+  font-style: normal;
+  font-family: "Sigmar One", cursive;
+  font-weight: 400;
+  font-size: 150%;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.main-videos section span h1 {
+  text-align: start;
+  font-style: normal;
+  font-family: "Sigmar One", cursive;
+  color: white;
+  margin-top: 15px;
+}
+
+.video-responsive {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 60%;
+  position: relative;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
