@@ -49,6 +49,21 @@ header .contenedor-secciones a:visited {
   margin-bottom: 10px;
   color: black;
 }
+.main-principal section span h1 {
+  font-style: normal;
+  font-family: "Sigmar One", cursive;
+  font-weight: 400;
+  font-size: 200%;
+  margin-bottom: 10px;
+  color: white;
+}
+.main-principal section span div {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.main-principal section span div:hover {
+  transform: scale(1.01, 1.01);
+}
 
 .main-cup section span h1 {
   text-align: start;
@@ -56,6 +71,9 @@ header .contenedor-secciones a:visited {
   font-family: "Sigmar One", cursive;
   color: white;
   margin-top: 15px;
+}
+.main-cup section span div:hover {
+  transform: scale(1.8, 1.8);
 }
 
 .video-responsive {
@@ -146,14 +164,8 @@ footer nav {
   margin-top: auto;
 }
 
-.main-fdxradio section div img {
-  box-shadow: 6px 6px 11px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 6px 6px 11px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 6px 6px 11px 0px rgba(0, 0, 0, 0.75);
-  margin-bottom: 5px;
-}
 .main-fdxradio section div img:hover {
-  transform: scale(1.03, 1.03);
+  transform: scale(1.2, 1.2);
 }
 
 /*# sourceMappingURL=style.css.map */
