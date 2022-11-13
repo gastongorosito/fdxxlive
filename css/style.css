@@ -65,15 +65,23 @@ header .contenedor-secciones a:visited {
   transform: scale(1.01, 1.01);
 }
 
-.main-cup section span h1 {
+.main-fdxradio section div img:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.main-wanda section span h1 {
   text-align: start;
   font-style: normal;
   font-family: "Sigmar One", cursive;
   color: white;
   margin-top: 15px;
 }
-.main-cup section span div:hover {
-  transform: scale(1.8, 1.8);
+.main-wanda section span div h1 {
+  text-align: start;
+  font-style: normal;
+  font-family: "Sigmar One", cursive;
+  color: white;
+  margin-top: 15px;
 }
 
 .video-responsive {
@@ -93,19 +101,15 @@ header .contenedor-secciones a:visited {
   width: 100%;
 }
 
-.main-wanda section span h1 {
+.main-cup section span h1 {
   text-align: start;
   font-style: normal;
   font-family: "Sigmar One", cursive;
   color: white;
   margin-top: 15px;
 }
-.main-wanda section span div h1 {
-  text-align: start;
-  font-style: normal;
-  font-family: "Sigmar One", cursive;
-  color: white;
-  margin-top: 15px;
+.main-cup section span div:hover {
+  transform: scale(1.8, 1.8);
 }
 
 .video-responsive {
@@ -169,10 +173,6 @@ section span div:hover {
 
 footer nav {
   margin-top: auto;
-}
-
-.main-fdxradio section div img:hover {
-  transform: scale(1.2, 1.2);
 }
 
 /*# sourceMappingURL=style.css.map */
