@@ -15,20 +15,25 @@ header nav {
   font-size: 150%;
   margin-bottom: 10px;
 }
-header .contenedor-secciones {
+@media screen and (max-width: 600px) {
+  header nav {
+    font-size: 100%;
+  }
+}
+header nav .contenedor-secciones {
   width: 80%;
 }
 @media screen and (min-width: 992px) {
-  header .contenedor-secciones .header-secciones {
+  header nav .contenedor-secciones .header-secciones {
     display: flex;
     justify-content: end;
   }
 }
-header .contenedor-secciones a:link {
+header nav .contenedor-secciones a:link {
   color: white;
   text-decoration: none;
 }
-header .contenedor-secciones a:visited {
+header nav .contenedor-secciones a:visited {
   color: white;
   text-decoration: none;
 }
