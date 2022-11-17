@@ -45,6 +45,8 @@ header nav .contenedor-secciones a:visited {
   font-size: 300%;
   margin-bottom: 10px;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 .main-principal section div h2 {
   font-style: normal;
@@ -71,7 +73,7 @@ header nav .contenedor-secciones a:visited {
 }
 
 .main-fdxradio section div img:hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.02, 1.02);
 }
 
 .main-wanda section span h1 {
