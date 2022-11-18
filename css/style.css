@@ -203,6 +203,11 @@ section span div h3 {
 section span div:hover {
   transform: scale(1.03, 1.03);
 }
+section div h2 {
+  font-style: normal;
+  font-family: "Sigmar One", cursive;
+  color: white;
+}
 
 footer nav {
   margin-top: auto;
