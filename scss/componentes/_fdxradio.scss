@@ -4,33 +4,25 @@
       img:hover {
         transform: scale(1.02, 1.02);
       }
+      .imagena{
+        position: relative;
+      }
+
       .invitados {
         font-style: normal;
         font-family: 'Sigmar One', cursive;
-        font-size: 200%;
-        margin-bottom: 10px;
+        font-size: 180%;
         color: white;
-        display: flex;
-        justify-content: center;
-      }
-      .der{
         position: absolute;
-        left: 70%;
-        transform: translate(-50%, -150%);
-        
-        @media screen and (max-width: 1750px) {
-          display: none;
-        }
-      }
-      .izq{
-        position: absolute;
-        right: 43%;
-        transform: translate(-50%, -150%);
-        
-          @media screen and (max-width: 1750px) {
-          display: none;
-        }
+        bottom: 8px;
+        right: 60px;
 
+        @media screen and (max-width: 767px) {
+          font-size: 110%;
+          position: absolute;
+          bottom: 8px;
+          right: 16px;
+        }
       }
       h2{
         font-style: normal;
@@ -59,7 +51,4 @@
           }
         }
         }
-    }
-      
- 
-
+      }

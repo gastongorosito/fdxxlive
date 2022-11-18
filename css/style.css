@@ -75,33 +75,24 @@ header nav .contenedor-secciones a:visited {
 .main-fdxradio section div img:hover {
   transform: scale(1.02, 1.02);
 }
+.main-fdxradio section div .imagena {
+  position: relative;
+}
 .main-fdxradio section div .invitados {
   font-style: normal;
   font-family: "Sigmar One", cursive;
-  font-size: 200%;
-  margin-bottom: 10px;
+  font-size: 180%;
   color: white;
-  display: flex;
-  justify-content: center;
-}
-.main-fdxradio section div .der {
   position: absolute;
-  left: 70%;
-  transform: translate(-50%, -150%);
+  bottom: 8px;
+  right: 60px;
 }
-@media screen and (max-width: 1750px) {
-  .main-fdxradio section div .der {
-    display: none;
-  }
-}
-.main-fdxradio section div .izq {
-  position: absolute;
-  right: 43%;
-  transform: translate(-50%, -150%);
-}
-@media screen and (max-width: 1750px) {
-  .main-fdxradio section div .izq {
-    display: none;
+@media screen and (max-width: 767px) {
+  .main-fdxradio section div .invitados {
+    font-size: 110%;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
   }
 }
 .main-fdxradio section div h2 {
