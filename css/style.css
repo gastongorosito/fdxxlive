@@ -139,9 +139,6 @@ header nav .contenedor-secciones a:visited {
   color: white;
   margin-top: 15px;
 }
-.main-cup section span div:hover {
-  transform: scale(1.8, 1.8);
-}
 
 .video-responsive {
   height: 0;
